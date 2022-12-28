@@ -1,0 +1,223 @@
+@media screen and (min-width: 200px) and (max-width:600px){
+    section.copy-right{
+        bottom: 2rem;
+        left: 1rem;
+    }
+    div.question-tag{
+        display: none;
+    }
+    /* sttuling the abstract headings */
+    div.top-level h3{  
+        padding: 1.8rem 0rem 0.2rem 4rem;
+    }
+    div.image{
+        left: 1rem;
+    }
+    /* right aligning the hummerbuer on mobile view */
+    div.humerburger{
+        right:22px;
+    }
+    div.serach-icon-con{
+        right: 22px;
+    }
+    /* SERCTION TWO */
+    /* HELP SEARCH BAR */
+    section.search-bar h1{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 600px) and (max-width:768px){
+    section.contacts{
+        width: 60%;
+    }
+    section.copy-right{
+       bottom: 8rem;
+       right: 1rem;
+    }
+     /* sttuling the abstract headings */
+     div.top-level h3{  
+        padding: 1.8rem 0rem 0.2rem 4rem;
+    }
+    div.image{
+        left: 1rem;
+    }
+
+    /* right aligning the hummerbuer on mobile view */
+    div.humerburger{
+        right:30px;
+    }
+    div.serach-icon-con{
+        right: 34px;
+    }
+     /* SERCTION TWO */
+    /* HELP SEARCH BAR */
+    section.search-bar h1{
+        font-size: 4.5rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1000px) {
+    /* SECTION ONE */
+    section.cards div.card-container{
+        height: 280px;
+        margin-bottom: 20px;
+    }
+    div.card-icon img.card-icon-image{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    /* SECTION 2 */
+    section.cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;   
+    }
+    div.card-container div.left-margin
+    {
+        margin-left: 2em;
+        height: auto;
+        margin-right: 0;
+    }
+    div.card-icon img.left-margin{
+        margin-left: 4em;
+        height: auto;
+    }
+   
+    div.card-icon img.card-icon-image{
+        max-height: 80px;
+        width: 70px;
+    }
+    div.card-container div.right-margin{
+        margin-right:1rem;
+        margin-left: 20px;
+    }
+    div.card-article h3{
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 20px;
+        margin: 1.4rem 0 1rem;
+    }
+    div.card-article p{
+        margin-bottom: 2px;
+        font-size: 1.2rem;   
+    }
+    div.card-container div.right-margin{
+        margin-right: 3rem;
+        margin-left: 10px;
+    }
+section.contacts{
+        width: 75%;
+        padding-left: 50px;
+    }
+    section.copy-right{
+        right: 10rem;
+       bottom: 3rem;
+    }
+}
+@media screen and (min-width: 1000px) {
+    /* SEDION ONE */
+    /* ARROW ON SEARCH BOX */
+    img.right-arrow{
+        right: 7rem;
+    }
+    section.cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;   
+    }
+    section.cards div.card-container{
+        height: 350px;
+    }
+    div.card-container div.left-margin,
+    div.card-icon img.left-margin{
+        margin-left: 7em;
+    }
+   
+    div.card-icon img.card-icon-image{
+        max-height: 120px;
+        width: 100px;
+    }
+    div.card-container div.right-margin{
+        margin-right: 9.9rem;
+        margin-left: 40px;
+    }
+    div.card-article h3{
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 28px;
+        margin: 1rem 0 0rem;
+    }
+    div.card-article p{
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+       
+    }
+    div.card-article a{
+        font-size: 1.4rem;
+      
+    }
+    
+}
+@media screen and (min-width: 1000px) and (max-width:1522px){
+      /* SEDION ONE */
+    /* ARROW ON SEARCH BOX */
+    img.right-arrow{
+        right: 9rem;
+    } 
+    /*setting humherbuerger display to be none  */
+     div.humer-display-none{
+        display: none;
+    }
+    section.contacts{
+        width: 80%;
+        padding-left: 50px;
+    }
+    div.submit{
+        display: block;
+    }
+    section.copy-right{
+        right: 10rem;
+       bottom: 4.5rem;
+    }
+    footer{
+        background-color: black;
+        height: 25rem;
+    }
+    section.contacts{
+        grid-template-areas: 
+        "a b c d";
+        gap: 0rem;
+    }
+
+}
+
+@media screen and (min-width: 1522px){
+      /* SEDION ONE */
+    /* ARROW ON SEARCH BOX */
+    img.right-arrow{
+        right: 10rem;
+    }
+    section.contacts{
+        width: 80%;
+        padding-left: 50px;
+    }
+    div.submit{
+        display: block;
+    }
+    section.copy-right{
+        right: 12rem;
+       bottom: 4.5rem;
+    }
+    footer{
+        background-color: black;
+        height: 25rem;
+    }
+    section.contacts{
+        grid-template-areas: 
+        "a b c d";
+        gap: 2rem;
+    }   
+     /*setting humherbuerger display to be none  */
+    div.humer-display-none{
+        display: none;
+    }
+}

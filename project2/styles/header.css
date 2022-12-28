@@ -1,0 +1,113 @@
+/* STYLING THE HARDER */
+header{
+position: relative;
+}
+header div.top-level{
+    height: 5.5rem;
+    background-color: black;
+    position: relative;
+}
+/* styling the abstract */
+div.top-level h3{
+    color: white;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    padding: 1.8rem 0rem 0.2rem 7.5rem;
+}
+div.image{
+    width: 3.8rem;
+    height: 3rem;
+    position: absolute;
+    top: -6px;
+    left: 4.7rem;
+}
+
+div.image img{
+    width: 100%;
+    height: 100%;
+}
+div.submit{
+    display: none;
+}
+/* submit and sign styling */
+div.submit button{
+ background-color: transparent;
+ border: none;
+ position: absolute;
+}
+div.submit button.sign-in{
+top: 20px;
+right:6.5rem;
+padding: 0.8rem  2rem;
+font-size: 1.4rem;
+background-color: #4c5fd5;
+    border-radius: 0.6rem;
+}
+div.submit button.sumit-request{
+    right: 16rem;
+    top: 20px;
+    background-color: black;
+    border: 2px solid white;
+    padding: 0.6rem 1.6rem;
+    border-radius: 0.6rem;
+}
+div.submit button a{
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+/* humerburger styling */
+div.humerburger{
+    width: 22px;
+    height:2px;
+    background-color: rgb(249, 247, 247);
+    position: absolute;
+    right:80px;
+    top:2.5rem;
+    z-index:1;
+}
+
+div.humerburger::before{
+    content: '';
+    width: 22px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    z-index: 3;
+    top: 6px;
+}
+div.humerburger::after{
+    content: '';
+    width: 22px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    z-index: 3;
+    top: -6px;
+}
+
+/* search icon on header sectoion  */
+div.serach-icon-con{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3rem;
+    position: absolute;
+    top: 30px;
+    right: 90px;
+    z-index: 2;
+}
+
+/* seting scale up hover effecton search icpn */
+div.serach-icon-con img{
+    width: 50%;
+    height: 50%;
+    transition: all .2s ease-in-out;
+   
+}
+div.serach-icon-con img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
