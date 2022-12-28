@@ -20,6 +20,9 @@ div.ser input.search-bar{
     font-size: 20px;
     padding-left: 15px;
 }
+div.ser input.search-bar:focus{
+    outline:none;
+}
 /* syyling the arrow on serach button */
 /* img.right-arrow{
     width: 1.2rem;
