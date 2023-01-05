@@ -33,7 +33,7 @@ header{
     height: 75px;
     padding-bottom: 10px;
     box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
-    background-color:rgba(255, 255, 255, 0.99);
+    background-color:rgba(255, 255, 255, 0.98);
 
 }
 .header{
@@ -45,7 +45,7 @@ header{
     transition: all 0.5s linear;
     /* transform: translateX(0%); */
     overflow: hidden;
-    background-color:rgba(255, 255, 255, 1);
+    background-color:rgba(255, 255, 255, 0);
 }
 .nav-link{
     display: flex;
@@ -57,7 +57,7 @@ header{
     right: 0;
     left: 0;
     z-index: 2;
-    background-color:rgba(255, 255, 255, 0.97);
+    background-color:transparent;
     transition: all 0.5s linear;
     padding: 30px 0 20px 15px;
     box-shadow: 4px 1px 2px rgba(0, 0, 0, 0.3);

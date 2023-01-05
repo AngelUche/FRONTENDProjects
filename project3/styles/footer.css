@@ -1,7 +1,7 @@
 footer{
     width: 80%;
     margin: 0 auto;
-    height: auto;
+    height: 300px;
     display: grid;
     grid-template-areas: 
     'a b'
@@ -28,13 +28,33 @@ footer{
     margin-bottom: 60px;
     grid-area: c;
 }
+.fa-brands{
+    background-color: #04ddb2;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    transform: scale(1.1);
+}
 .social-icon{
     margin-bottom: 30px;
     grid-area: d;
     display: flex;
+    margin-top: 40px;
+    align-self: flex-start;
     flex-direction: column;
 }
+.lobe svg{
+    margin-left:80px;
+}
 .lobe{
+    width: 200px;
+    background-color: azure;
     padding-bottom: 40px;
     grid-area: e;
     margin-left:60px;
@@ -49,14 +69,20 @@ footer{
     justify-content: space-between;
         grid-template-areas:
         'e a b c d';
-       gap: 5rem;
-       width: 70%;
+       gap: 3rem;
+       width: 80%;
        font-size: 15px;
+       margin-bottom: 0px;
+    }
+    .lobe svg{
+        margin-left:0px;
+    }
+    lobe{
+        margin-left:0px;
     }
     .lobe{
         padding-bottom: 40px;
         grid-area: e;
-        margin-left:60px;
         width: 170px;
     }
     .lobe p{
@@ -64,7 +90,7 @@ footer{
         font-size: 15px;
     }
     .social-icon {display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     flex-direction: row;
     }
 }
