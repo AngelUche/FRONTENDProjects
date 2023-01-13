@@ -1,0 +1,126 @@
+// adding the scss fractions
+@import './scss/reset';
+@import './scss/footer';
+@import './scss/header';
+@import './scss/variables';
+
+
+section.main-container {
+   @include DisplayDirection(column);
+   margin: 0 auto;
+}
+
+.section1{
+    width: 400px;
+    height: 500px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   @include DisplayDirection(column);
+
+    #{&}__tag{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    }
+        #{&}__buy a{
+        color:  #e568ac;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+    #{&}__buy1 a{
+        color: white;
+        font-size: 1.3rem;
+    }
+    .links1{
+        color: white;
+    }
+    #{&}__tag2{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    #{&}__item1{
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    #{&}__item3{
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
+
+.img{
+    width: 100%;
+    height: 70%;
+    #{&}__images{
+        width: 100%;
+        height: 100%;
+    }
+}
+.section1 li{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.links{
+    color:  #e568ac;
+}
+@media screen and (min-width:1000px) {
+    .section1{
+        width: 500px;
+        height: 800px;
+    }
+    .markdown{
+        display: block;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+
+        li{
+            font-size: 18px;
+            margin-top: 4px;
+        }
+    }
+    .back-to-top{
+        display: none;
+       }
+    .parag{
+        width:30%;
+        position: fixed;
+        bottom: 0px;
+        left: 15px;
+        .href{
+            text-decoration: underline;
+            font-size: 18px;
+            margin: 30px 0;
+            text-align: start;
+        }
+    }
+    .email{
+        position: fixed;
+        top: 20px;
+        right: 10px;
+        a{
+            font-size: 20px;
+        }
+    }
+    .logo{
+        position: fixed;
+        top: 20px;
+        left: 15px;
+        width:260px;
+        height: 30px;
+        margin:0px 0px 0px;
+        #{&}__image{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .parag{
+        #{&}__p{
+            font-size: 18px;
+            font-weight: 700;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+    }
+}

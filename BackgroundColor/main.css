@@ -1,0 +1,251 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 500ms ease-out 200ms;
+  transition: background-color 500ms ease-out 200ms;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.parag .parag__p {
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4px;
+}
+.parag .li {
+  font-size: 10px;
+  text-align: center;
+}
+.parag .li a {
+  text-decoration: underline;
+}
+.parag .href {
+  text-decoration: underline;
+  font-size: 18px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.email {
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.markdown {
+  display: none;
+}
+
+.back-to-top {
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  position: fixed;
+  color: aqua;
+  right: 40px;
+  bottom: 70px;
+  -webkit-animation: inifinity 2s ease-in-out infinite;
+          animation: inifinity 2s ease-in-out infinite;
+  visibility: hidden;
+  z-index: -7;
+}
+
+.show-back-to-top {
+  visibility: visible;
+  z-index: 7;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+@-webkit-keyframes inifinity {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes inifinity {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.logo {
+  width: 140px;
+  height: 20px;
+  margin: 26px 15px 0px;
+}
+.logo .logo__image {
+  width: 100%;
+  height: 100%;
+}
+
+section.main-container {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.section1 {
+  width: 400px;
+  height: 500px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section1 .section1__tag {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.section1 .section1__buy a {
+  color: #e568ac;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.section1 .section1__buy1 a {
+  color: white;
+  font-size: 1.3rem;
+}
+.section1 .links1 {
+  color: white;
+}
+.section1 .section1__tag2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.section1 .section1__item1 {
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.section1 .section1__item3 {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.img {
+  width: 100%;
+  height: 70%;
+}
+.img .img__images {
+  width: 100%;
+  height: 100%;
+}
+
+.section1 li {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.links {
+  color: #e568ac;
+}
+
+@media screen and (min-width: 1000px) {
+  .section1 {
+    width: 500px;
+    height: 800px;
+  }
+  .markdown {
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+  .markdown li {
+    font-size: 18px;
+    margin-top: 4px;
+  }
+  .back-to-top {
+    display: none;
+  }
+  .parag {
+    width: 30%;
+    position: fixed;
+    bottom: 0px;
+    left: 15px;
+  }
+  .parag .href {
+    text-decoration: underline;
+    font-size: 18px;
+    margin: 30px 0;
+    text-align: start;
+  }
+  .email {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+  }
+  .email a {
+    font-size: 20px;
+  }
+  .logo {
+    position: fixed;
+    top: 20px;
+    left: 15px;
+    width: 260px;
+    height: 30px;
+    margin: 0px 0px 0px;
+  }
+  .logo .logo__image {
+    width: 100%;
+    height: 100%;
+  }
+  .parag .parag__p {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=main.css.map */

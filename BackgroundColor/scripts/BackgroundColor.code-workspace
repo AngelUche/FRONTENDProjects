@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../project/JSCOurse/JSProjects/javascript-basic-projects-master/01-color-flipper"
+		},
+		{
+			"path": "../../../../project/JSCOurse/JSProjects/javascript-basic-projects-master/10-scroll"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BackgroundColor"
+	}
+}

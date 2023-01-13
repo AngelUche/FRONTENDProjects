@@ -1,0 +1,19 @@
+
+// ADDING VARIABLES
+
+// COLORS
+$clr-1:#ffffff;
+$color-2:#00c1b5;
+$color-3:#ff6519;
+$color-4:#ffbe00;
+$color-5:#1d3fbb;
+$color-6:#E30512;
+
+
+@mixin DisplayDirection($dirrection){
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $dirrection;
+}
